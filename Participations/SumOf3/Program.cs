@@ -27,7 +27,11 @@ namespace SumOf3
             Console.WriteLine("Please enter your third number >>");
             number3input = Console.ReadLine();
 
-            Console.WriteLine (number1input + number2input + number3input)
+            Console.WriteLine (number1input + number2input + number3input) as SumOf3
+
+            SumOf3 * LUCKY_NUMBER
+
+
         }
     }
 }
