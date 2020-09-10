@@ -13,15 +13,23 @@ namespace Conditional_FizzBuzz
             //      OR = | |
             //      AND = &&
 
-            if (number % 3 == 0)
+            if (number % 3 == 0
+                && number % 5 == 0)
             {
-                Console.WriteLine("Fizz");
+                Console.WriteLine("Fizz Buzz");
             }
-            
-            
-           Console.WriteLine(number);
-
-
+            else if (number % 3 == 0)
+	        {
+                Console.WriteLine("Fizz");
+	        }
+            else if (number % 5 == 0)
+	        {
+                Console.WriteLine("Buzz");
+	        }
+            else
+	        {
+                Console.WriteLine(number);
+	        }
            
         }
     }
