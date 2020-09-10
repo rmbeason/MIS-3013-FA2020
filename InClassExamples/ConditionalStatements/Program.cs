@@ -35,6 +35,39 @@ namespace ConditionalStatements
                 Console.WriteLine("INVALID INPUT, GOODBYE!");
                 return;
             }
+
+            double quote = (0.55 * distance) + (.73 * weight);
+            double hazardousCost = 0;
+
+            if(containsHazardous == true)
+            {
+                hazardousCost = 0.15 * weight;
+            }
+            else
+            {
+                hazardousCost = 0;
+            }
+
+            double netTotal = quote + hazardousCost;
+            double discount = 0;
+            if(distance < 150 && weight > 500)
+            {
+                discount = netTotal * .10;
+            }
+
+            double total = netTotal - discount;
+
+            Console.WriteLine();
+            Console.WriteLine("Quote: " + quote.ToString("C"));
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Hazardous Cost: " + hazardousCost.ToString("C"));
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Net Total: " + netTotal.ToString("C"));
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Discount: " + discount.ToString("C"));
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine($"Total: {total.ToString("C")}");
+
         }
     }
 }
