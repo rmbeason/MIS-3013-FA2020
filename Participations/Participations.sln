@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOf3", "SumOf3\SumOf3.csproj", "{7C537EB1-6AC7-401E-B4B4-A4FB28E1DEF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditional_FizzBuzz", "Conditional_FizzBuzz\Conditional_FizzBuzz.csproj", "{EEE110C6-B7AB-40C0-9B10-B23C6EE80C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditional_FizzBuzz", "Conditional_FizzBuzz\Conditional_FizzBuzz.csproj", "{EEE110C6-B7AB-40C0-9B10-B23C6EE80C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditional_CoinToss", "Conditional_CoinToss\Conditional_CoinToss.csproj", "{D0A9D0E9-88F9-4017-953A-C86EFE8861ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EEE110C6-B7AB-40C0-9B10-B23C6EE80C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE110C6-B7AB-40C0-9B10-B23C6EE80C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE110C6-B7AB-40C0-9B10-B23C6EE80C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A9D0E9-88F9-4017-953A-C86EFE8861ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A9D0E9-88F9-4017-953A-C86EFE8861ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A9D0E9-88F9-4017-953A-C86EFE8861ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A9D0E9-88F9-4017-953A-C86EFE8861ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
