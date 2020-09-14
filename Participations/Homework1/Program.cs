@@ -21,7 +21,7 @@ namespace Homework1
 
             Console.WriteLine("How much does the item cost? >>");
             response = Console.ReadLine();
-            itemcost = Convert.ToDouble(Console.ReadLine());
+
 
             double subtotal = (quantity * itemcost);
             double tax = (SALES_TAX * subtotal);
