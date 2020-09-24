@@ -9,9 +9,16 @@ namespace StringManipulation
             //                        012345678910
             string instanceOfString = "Hello World";
 
+            char firstletter = instanceOfString[0];
+
+            for (int i = 0; i < 100; i = i + 10)
+            {
+                Console.WriteLine(i);
+            }
+
             instanceOfString = instanceOfString.ToUpper();
             // starting value | condition to loop        |  what assignment happens after each loop
-            // this could be i = i + 10 to count by each loop
+                                                          // this could be i = i + 10 to count by each loop
 
             for (int i = 0; i < instanceOfString.Length; i++)
             {
@@ -19,7 +26,7 @@ namespace StringManipulation
                 // have to cover the characer to a string to use the string methods
                 Console.WriteLine(letter);//.ToString().ToUpper());
             }
-            Console.ReadLine();
+        Console.ReadLine(); 
         }
     }
 }
