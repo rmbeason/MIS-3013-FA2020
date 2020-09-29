@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "practice", "practice\practi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{1A31CA21-3004-4608-9E37-5808EBF2C58C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practice quiz", "practice quiz\practice quiz.csproj", "{B7ED91C3-064C-4575-BF56-7B8B6BB478DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "practice quiz", "practice quiz\practice quiz.csproj", "{B7ED91C3-064C-4575-BF56-7B8B6BB478DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_Beason", "Collections_Beason\Collections_Beason.csproj", "{9719DA95-C30B-44EA-854A-2638CDE37F21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B7ED91C3-064C-4575-BF56-7B8B6BB478DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7ED91C3-064C-4575-BF56-7B8B6BB478DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7ED91C3-064C-4575-BF56-7B8B6BB478DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9719DA95-C30B-44EA-854A-2638CDE37F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9719DA95-C30B-44EA-854A-2638CDE37F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9719DA95-C30B-44EA-854A-2638CDE37F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9719DA95-C30B-44EA-854A-2638CDE37F21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
