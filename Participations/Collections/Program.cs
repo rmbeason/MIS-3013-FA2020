@@ -10,7 +10,7 @@ namespace Collections
             // assuming there are four exam grades
 
             int final = 0, min, max;
-            int[] grades = new int[4]
+            int[] grades = new int[4];
             Console.WriteLine("Please enter the student's exam grades >>");
 
             for (int i = 0; i < 4; i++)
