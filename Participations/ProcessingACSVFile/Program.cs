@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography;
 
@@ -36,6 +37,9 @@ namespace ProcessingACSVFile
             double oct = 0;
             double nov = 0;
             double dec = 0;
+
+            //Dictionary<string, double> monthSums = new Dictionary<string,double>();
+
 
             for (int i = 1; i < lines.Length; i++)
             {
