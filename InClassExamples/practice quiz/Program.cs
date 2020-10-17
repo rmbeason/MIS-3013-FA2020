@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 
 namespace practice_quiz
 {
@@ -6,17 +7,11 @@ namespace practice_quiz
     {
         static void Main(string[] args)
         {
-            int input = Convert.ToInt32(Console.ReadLine());
-            int answer;
-
-            if (input == 10)
+            for (int i = 4; i > 0; i--)
             {
-                answer = 10 * input;
+                Console.WriteLine("There are " + i + " puppies left.");
             }
-            else
-            {
-                answer = input;
-            }
+            Console.ReadKey();
         }
 
     }

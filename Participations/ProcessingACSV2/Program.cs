@@ -8,6 +8,17 @@ namespace ProcessingACSV2
         {
             string filePath = @"SalesJan2009.csv";
 
+            string[] lines = File.ReadAllLines(filePath);
+
+            string name = 0;
+            double transaction_date = 0;
+            string payment_type = 0;
+
+            if (payment_type == "Visa")
+            {
+
+            }
+            
         }
     }
 }
