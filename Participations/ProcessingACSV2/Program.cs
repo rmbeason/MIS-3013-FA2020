@@ -16,7 +16,10 @@ namespace ProcessingACSV2
 
             if (payment_type == "Visa")
             {
-
+                if (country == "United States")
+                {
+                    
+                }
             }
             
         }
