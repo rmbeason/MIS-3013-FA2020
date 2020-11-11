@@ -21,6 +21,10 @@ namespace Classes_RectanglesAndCircles
             Circle circle3 = new Circle(3, 5);
 
 
+            Rectangle myRectangle = new Rectangle();
+            myRectangle.Length = 12;
+            Console.WriteLine($"The are of a rectangle with {myRectangle.Length} and {myRectangle.Width} is {myRectanle.CalculateArea()}\n");
+
             Console.ReadKey();
         }
     }
